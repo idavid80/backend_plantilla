@@ -1,0 +1,25 @@
+{
+  "name": "esqueleto_1",
+  "version": "1.0.0",
+  "description": "crear esqueleto backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "gest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idavid80/backend_plantilla.git"
+  },
+  "keywords": [
+    "thebridge"
+  ],
+  "author": "David Dominguez Bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idavid80/backend_plantilla/issues"
+  },
+  "homepage": "https://github.com/idavid80/backend_plantilla#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
