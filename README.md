@@ -6,10 +6,10 @@ Utilizando NodeJS, Express, Postman y Mongodb.
 
 # Instalar node en backend
 
-npm init.
+>npm init.
 
 # Instalar express en el backend
-npm install express --save.
+>npm install express --save.
 
 # Enlazar con postman
 
