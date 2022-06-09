@@ -49,3 +49,9 @@ Una vez tenemos los permisos. Trabajamos en el terminal de Visual Studio. Instal
 >npm install nodemon -g
 
 >nodemon
+
+# instalar bodyParse
+
+>var bodyParse = require('body-parse')
+>app.use(bodyParse.json()); //body en formato json
+>app.use(bodyParse.urlencoded({ extended : false })); //body en formulario

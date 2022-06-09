@@ -2,6 +2,10 @@ const express = require('express')
 const app = express()
 const port = 4000
 
+var bodyParse = require('body-parse')
+app.use(bodyParse.json()); //body en formato json
+app.use(bodyParse.urlencoded({ extended : false })); //body en formulario
+
 var cors = require("cors");
 app.use(cors());
 
